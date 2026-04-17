@@ -17,7 +17,7 @@ ORDER BY EMPLOYEECOUNT
 -- DESC DECRESCENTE
 ```
 
-#### É possível combinar opções de ordenação, onde a tabela DIMSTORE vai ser combinada na ordenação nos campos 
+#### É possível combinar opções de ordenação, onde a tabela DIMSTORE vai ser combinada na ordenação nos campos
 
 ```SQL
 SELECT TOP 100
