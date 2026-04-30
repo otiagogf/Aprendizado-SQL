@@ -14,7 +14,7 @@ FROM
 */
 
 SELECT 
-	STOREKEY, STORENAME 
+	STOREKEY, STORENAME, STOREPHONE
 FROM
 	DIMSTORE
 
@@ -24,7 +24,7 @@ FROM
 
 SELECT 
 	PRODUCTNAME AS 'PRODUTO',
-	UNITPRICE AS 'PREÇO UNITÁRIO'
+	UNITPRICE AS 'PREÇO_UNITÁRIO'
 FROM
 	DIMPRODUCT 
 
@@ -91,7 +91,8 @@ FROM
 
 /* 
 	O COMANDO ( SELECT * ) não é recomendado para tabelas extensas com muitos dados, para não impactar performance da base de dados
-/*
+*/
+
 SELECT 
 	PRODUCTNAME 
 FROM
