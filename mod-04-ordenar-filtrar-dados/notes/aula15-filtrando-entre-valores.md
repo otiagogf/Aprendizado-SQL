@@ -1,0 +1,33 @@
+# Where mais between
+
+## Filtrando entre valores
+
+```sql
+-- EXEMPLO 1
+SELECT 
+    *
+FROM 
+    DIMPRODUCT
+WHERE
+    UNITPRICE BETWEEN 50 AND 100
+```
+
+```sql
+-- EXEMPLO 2
+SELECT 
+    *
+FROM 
+    DIMPRODUCT
+WHERE
+    UNITPRICE NOT BETWEEN 50 AND 100
+```
+
+```sql
+-- EXEMPLO 3
+SELECT 
+    *
+FROM 
+    DIMEMPLOYEE
+WHERE
+    HIREDATE BETWEEN '2000-01-01' AND '2000-12-31'
+```
